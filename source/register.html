@@ -23,18 +23,18 @@
     <form name="myform" class = "navbar-form">
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">__Username__</span>
-            <input type="text" ng-model = "user.name" class="form-control" placeholder="Example: Sachin" aria-describedby="basic-addon1">
+            <span class="input-group-addon" id="basic-addon1">Username</span>
+            <input type="text" ng-model = "user.name" class="form-control" placeholder="your answer" aria-describedby="basic-addon1">
         </div>
         <br/><br/>
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon2">Email Address</span>
-            <input type="email" ng-model = "user.email" class="form-control" placeholder="Ex: Sachin@gmail.com" aria-describedby="basic-addon2">
+            <input type="email" ng-model = "user.email" class="form-control" placeholder="your answer" aria-describedby="basic-addon2">
             <span ng-show = "myform.myAddress.$error.email"></span>
         </div>
         <br/><br/>
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon3">__Password__  </span>
+            <span class="input-group-addon" id="basic-addon3">Password </span>
             <input type="password" ng-model = "user.pwd" class="form-control" placeholder="Minimum of 8 Characters" aria-describedby="basic-addon3">
             <span ng-show = "myform.myAddress.$error.email"></span>
         </div>
